@@ -16,7 +16,9 @@ Includes:
 
 First, follow the [Firebase](https://firebase.google.com) instructions to create a Firebase DB and create the firebase.ts and server_key.json.
 
-Next, run the development server:
+Second, create an .env with NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY and CLERK_SECRET_KEY.
+
+Finally, run the development server:
 
 ```bash
 npm run dev
